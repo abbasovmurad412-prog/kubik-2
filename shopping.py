@@ -1,0 +1,7 @@
+price = float(input('Enter your price:'))
+count = int(input('Enter your count:'))
+money = float(input('Enter your money:'))
+total = (price * count)
+change = (money - total)
+print (total)
+print (money - total)
